@@ -1,6 +1,6 @@
 # terraform-kubernetes-aws-load-balancer-controller
 
-Terraform module which deploys AWS Load Balancer Controller
+Terraform module which deploys AWS EBS CSI Controller
 
 [![tflint](https://github.com/bailey84j/terraform-kubernetes-aws-load-balancer-controller/actions/workflows/tflint.yml/badge.svg)](https://github.com/bailey84j/terraform-kubernetes-aws-load-balancer-controller/actions/workflows/tflint.yml)
 [![LICENSE](https://img.shields.io/github/license/bailey84j/terraform-kubernetes-aws-load-balancer-controller)](https://github.com/bailey84j/terraform-kubernetes-aws-load-balancer-controller/blob/master/LICENSE)
