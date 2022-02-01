@@ -34,13 +34,13 @@ $ terraform apply
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 3.63 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.73.0 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_aws_lb_controller"></a> [aws\_lb\_controller](#module\_aws\_lb\_controller) | ../../ | n/a |
+| <a name="module_aws_ebs_csi_driver"></a> [aws\_ebs\_csi\_driver](#module\_aws\_ebs\_csi\_driver) | ../../ | n/a |
 
 ## Resources
 
@@ -51,7 +51,9 @@ $ terraform apply
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_k8s_cluster_name"></a> [k8s\_cluster\_name](#input\_k8s\_cluster\_name) | The name of the target Kubernetes Cluster | `string` | n/a | yes |
 
 ## Outputs
 
